@@ -869,6 +869,31 @@ main {
   border-radius: inherit;
 }
 
+table.skills {
+  width: 100%;
+  border-collapse: separate;
+  padding: 5px;
+  border-spacing: 15px 0rem;
+  vertical-align: top;
+}
+
+table.skills th{
+  display: inline-block;
+  max-width: 650px;
+  color: white;
+  padding: 2px;
+  font-size: var(--fs-7);
+  text-align: left;
+  font-weight: normal;
+}
+table.skills td { 
+  color: white;
+  min-width: 250px;
+  padding: 2px;
+  font-size: var(--fs-7);  
+  text-align: right;
+  font-weight: bold;
+}
 
 
 
@@ -1420,7 +1445,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .content-card {
-    padding: 30px;
+    padding: 10px;
     padding-top: 25px;
   }
 
