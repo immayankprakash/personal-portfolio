@@ -879,7 +879,6 @@ table.skills {
 
 table.skills th{
   display: inline-block;
-  max-width: 650px;
   color: white;
   padding: 2px;
   font-size: var(--fs-7);
