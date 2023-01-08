@@ -872,7 +872,7 @@ main {
 table.skills {
   width: 100%;
   border-collapse: separate;
-  padding: 5px;
+  padding: 10px;
   border-spacing: 15px 0rem;
   vertical-align: top;
 }
