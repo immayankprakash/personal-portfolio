@@ -846,6 +846,16 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+.experience {
+  color: var(--light-gray);
+  list-style-type: disc; /* or any other type of bullet point */
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300); 
+}
+
+.experience li {
+  margin-bottom: 5px; /* or any other value in pixels */
+}
 
 
 /**
