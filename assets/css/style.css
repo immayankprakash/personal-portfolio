@@ -880,15 +880,17 @@ table.skills {
 table.skills th{
   color: white;
   padding: 2px;
-  font-size: var(--fs-7);
+  font-size: var(--fs-8);
   text-align: left;
   font-weight: normal;
 }
 
 table.skills td { 
+  max-width:100%;
+  white-space:nowrap;
   color: white;
   padding: 2px;
-  font-size: var(--fs-7);  
+  font-size: var(--fs-8);  
   text-align: right;
   font-weight: bold;
 }
