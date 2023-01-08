@@ -878,7 +878,6 @@ table.skills {
 }
 
 table.skills th{
-  display: inline-block;
   color: white;
   padding: 2px;
   font-size: var(--fs-7);
@@ -888,7 +887,6 @@ table.skills th{
 
 table.skills td { 
   color: white;
-  min-width: 250px;
   padding: 2px;
   font-size: var(--fs-7);  
   text-align: right;
