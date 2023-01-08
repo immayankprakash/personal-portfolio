@@ -1472,7 +1472,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .content-card {
     padding: 10px;
-    padding-top: 25px;
+    padding-top: 10px;
   }
 
   .testimonials-avatar-box {
