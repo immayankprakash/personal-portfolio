@@ -332,7 +332,7 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
+  background: var(--bg-gradient-ony);
   border-radius: 20px;
 }
 
@@ -846,6 +846,7 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+
 .experience {
   color: var(--light-gray);
   list-style-type: disc; /* or any other type of bullet point */
@@ -854,6 +855,18 @@ main {
 }
 
 .experience li {
+  margin-bottom: 5px; /* or any other value in pixels */
+}
+
+
+.aboutme {
+  color: var(--light-gray);
+  list-style-type: disc; /* or any other type of bullet point */
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300); 
+}
+
+.aboutme li {
   margin-bottom: 5px; /* or any other value in pixels */
 }
 
@@ -1080,7 +1093,76 @@ table.skills td {
 }
 
 
+/* Content card container */
+.content-cards {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 15px;
+  padding-top: 15px;
+  border-radius: 14px;
+  cursor: auto;
+  z-index: 1;
+  width: 90%;
+  margin: 2em auto;
+  border: 0.1px solid #a3a3a3;
+  overflow: hidden;
+}
 
+/* Image container */
+.content-cards img {
+  float: left;
+  width: 32%;
+  margin: 0.5em;
+}
+
+/* Text container */
+.content-cards .text {
+  padding: 0.5em;
+  width: 65%;
+  float: right;
+  text-align: center;
+}
+
+/* Heading */
+.content-cards h2 {
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  
+}
+
+/* Description */
+.content-cards p {
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
+
+/* Check it out button */
+.check-out-button {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  margin-top: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #0077CC;
+  border-radius: 2px;
+}
+
+/* Add hover effect on button */
+.check-out-button:hover {
+    background-color: #0E096F;
+}
+
+/* button container */
+.button-container {
+  color: white;
+  font-size: 1em;
+  margin-bottom: 0.1em;
+  text-align: center;
+}
 
 
 /*-----------------------------------*\
